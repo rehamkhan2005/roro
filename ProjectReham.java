@@ -44,13 +44,13 @@ public class ProjectReham {
 
             public static void main(String[] args) {
 
-                int[] arr = {3, 4, 1, 7, 5};
+                int[] myarr = {3, 4, 1, 7, 5}; 
 
-                int n = arr.length;
+                int n = myarr.length;
 
                 int x = 3;
 
-                int index = search(arr, n, x);
+                int index = search(myarr, n, x);
 
                 if (index == -1) {
                     System.out.println("Element is not present in the array");
